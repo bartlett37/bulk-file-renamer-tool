@@ -1,0 +1,27 @@
+{
+  "name": "bulk-file-renamer-tool",
+  "version": "1.0.1",
+  "description": "A Node.js tool to bulk rename files in a directory.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bartlett37/bulk-file-renamer-tool"
+  },
+  "keywords": [
+    "bulk",
+    "rename",
+    "files",
+    "tool"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.0.0"
+  }
+}
